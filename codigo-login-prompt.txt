@@ -1,0 +1,19 @@
+let tentativas = 3
+const mensagem = document.querySelector('.mensagem');
+
+function login() {
+  digitado = prompt('Digite um Número');
+    if (digitado === '4') {
+    alert(`Senha Correta`);
+    mensagem.innerHTML = ('Mandou Bem o Filha da Puta')
+  } else if (digitado !== '4' && tentativas > 0) {
+    alert(`Errou: Tentativas: ${tentativas}`);
+    tentativas--;
+    login();
+  } else if (tentativas <= 0) {
+    alert(`Errou: Você não tem mais tentativas`)
+    mensagem.innerHTML = ('Sai daqui tem nada pra você ver não')
+  }
+}
+
+login();
