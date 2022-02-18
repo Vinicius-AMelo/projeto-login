@@ -58,7 +58,12 @@ input {
     margin-bottom: 15px;
 }   
 
-.alerta1 {
+.login-sucess {
+    color: green;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.login-failed {
     color: rgba(255, 0, 0, 0.650);
     font-family: 'Libre Franklin', sans-serif;
 }
