@@ -3,90 +3,9 @@
     margin: 0px;
 }
 
-.fundo {
-    display: flex;
-    flex-direction: column;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+body {
+    background-color: rgb(29, 196, 202);
     width: 100vw;
     height: 100vh;
     
 }
-
-.itens {
-    justify-content: center;
-    align-items: center;
-}
-
-.fb {
-text-align: center;
-color: #fff;
-background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-font-family: 'Gugi', cursive;
-padding-top: 20px;
-font-size: 50px;    
-}
-
-.bv {
-color: #fff;
-text-align: center;
-background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-font-family: 'Teko', sans-serif;
-padding-top: 0px;
-font-size: 40px;
-}
-
-.imge {
-width: 250px;
-height: 250px;
-border-radius: 50%;
-align-items: center;
-justify-content: center;
-margin-left: 520px;
-margin-top: 60px;
-}
-
-  .cb {
-    font-family: futura;
-    font-style: italic;
-    width: 100%;
-    margin-top: 0px;
-    text-align: center;
-    color: #313131;
-    font-size: 45px;
-    font-weight: bold;
-    position: absolute;
-    -webkit-animation: colorchange 1s infinite alternate;
-  }
-  
-  @-webkit-keyframes colorchange {
-    0% {
-      color: #6600CD;
-    }
-    10% {
-      color: #6630FF;
-    }
-    20% {
-      color: #2F66FF;
-    }
-    30% {
-      color: #2F9A9A;
-    }
-    40% {
-      color: #00BC00;
-    }
-    50% {
-      color: #9ACD00;
-    }
-    60% {
-      color: #FFCD00;
-    }
-    70% {
-      color: #FF9A30;
-    }
-    80% {
-      color: #FF0000;
-    }
-    100% {
-      color: #CD0000;
-    
-  }}
